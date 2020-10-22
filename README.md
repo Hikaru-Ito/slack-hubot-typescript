@@ -1,4 +1,6 @@
 # slack-hubot-typescript
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHikaru-Ito%2Fslack-hubot-typescript.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHikaru-Ito%2Fslack-hubot-typescript?ref=badge_shield)
+
 
 hubotをTypeScriptでかけるようにしました。
 Herokuで動きます。
@@ -223,3 +225,7 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHikaru-Ito%2Fslack-hubot-typescript.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHikaru-Ito%2Fslack-hubot-typescript?ref=badge_large)
