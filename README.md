@@ -31,3 +31,9 @@ $ git push heroku master
 // ログのStreamはこれで見ましょう
 $ heroku logs --tail
 ```
+
+## GitHub Actionsを使ってデプロイする
+`.github/workflows`に設定している。
+
+GitHubのSecretsに`HEROKU_API_KEY`をセットすれば、
+masterにpushで自動デプロイされる。
