@@ -7,7 +7,7 @@
   "scripts": {
     "postinstall": "npm run build",
     "start": "bin/hubot",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "dependencies": {
     "hubot": "^3.3.2",
