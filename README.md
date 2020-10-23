@@ -21,6 +21,9 @@ $ heroku create {アプリ名}
 // 環境変数としてSlack Hubot AppのTokenをセット
 $ heroku config:add HUBOT_SLACK_TOKEN={hubotのToken}
 
+// Heroku側でビルドしたいので
+$ heroku config:add NPM_CONFIG_PRODUCTION=false
+
 // デプロイ
 $ git push heroku master
 ```
