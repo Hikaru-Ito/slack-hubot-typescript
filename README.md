@@ -14,6 +14,7 @@ HUBOT_SLACK_TOKEN=xoxb-xxxx ./bin/hubot --adapter slack
 ```
 
 ## Herokuで運用する
+Herokuの登録とCLI設定は済ませておく。
 ```
 // Herokuアプリを作成
 $ heroku create {アプリ名}
@@ -26,4 +27,7 @@ $ heroku config:add NPM_CONFIG_PRODUCTION=false
 
 // デプロイ
 $ git push heroku master
+
+// ログのStreamはこれで見ましょう
+$ heroku logs --tail
 ```
