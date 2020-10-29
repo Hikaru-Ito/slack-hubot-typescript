@@ -35,5 +35,13 @@ $ heroku logs --tail
 ## GitHub Actionsを使ってデプロイする
 `.github/workflows`に設定している。
 
-GitHubのSecretsに`HEROKU_API_KEY`をセットすれば、
+GitHubのSecretsに以下をセットすれば、
 masterにpushで自動デプロイされる。
+```
+HEROKU_API_KEY={HerokuのAPI Key}
+HEROKU_APP_NAME={Herokuのアプリ名}
+HEROKU_EMAIL={Herokuで使用するメールアドレス}
+```
+![](https://i.gyazo.com/832e7cbb44f394084d88efcd3df98d8e.png)
+### 参考
+https://github.com/AkhileshNS/heroku-deploy
