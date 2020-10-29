@@ -32,6 +32,15 @@ $ git push heroku master
 $ heroku logs --tail
 ```
 
+### Herokuのタイムゾーンを東京にする
+デフォルトだと、22:00 ~ 6:00でHerokuが寝ます（無料Dynoの場合）
+
+[hubot-heroku-keepalive](https://github.com/hubot-scripts/hubot-heroku-keepalive)
+でHerokuを起動し続けているので、詳細はそちらを参照してください。
+```
+$ heroku config:add TZ=Asia/Tokyo
+```
+
 ## GitHub Actionsを使ってデプロイする
 `.github/workflows`に設定している。
 
